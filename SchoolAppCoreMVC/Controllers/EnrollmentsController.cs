@@ -49,7 +49,6 @@ public class EnrollmentsController : Controller
     {
         LoadCourses();
         LoadStudents();
-
         return View();
     }
 
